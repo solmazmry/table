@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input {
+            outline: none;
+        }
+
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table {
+            max-width: 1140px;
+            width: 100%;
+            margin: 50px auto;
+            border-collapse: collapse;
+        }
+
+        form {
+            width: 300px;
+            border: 1px solid #000;
+            margin: 0 auto;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        form button {
+            padding: 10px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            background-color: rgb(65, 65, 255);
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <form action="#">
+        <input type="text" id="inputName" placeholder="Name">
+        <input type="text" id="inputSurname" placeholder="Surname">
+        <button id="btn">Gonder</button>
+    </form>
+
+    <table id="person">
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Date</th>
+        </thead>
+        <tbody id="data"></tbody>
+    </table>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
